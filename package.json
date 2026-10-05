@@ -1,0 +1,15 @@
+{
+  "name": "library-backend",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Backend for the library system. Data is stored online (Supabase).",
+  "main": "server.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "new-code": "node scripts/new-code.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.0"
+  }
+}
